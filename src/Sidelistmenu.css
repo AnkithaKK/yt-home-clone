@@ -1,0 +1,24 @@
+
+.sidelistmenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 12px;
+    border: 0px solid black;
+    margin: 20px -15px;
+}
+
+.sidelistmenu-icon{
+    margin-bottom: 5px;
+}
+
+.sidelistmenu-container:hover{
+    transform: 0.5s ease;
+    background: linear-gradient(135deg, #ece8e8 0%, #ece8e8 100%);
+}
+
+
+.sidelistmenu-title{
+    font-size: 12px;
+    color: rgb(50, 48, 48);
+}

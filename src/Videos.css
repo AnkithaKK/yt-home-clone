@@ -1,0 +1,20 @@
+.videos-section{
+    justify-content: center;
+    padding: 10px 4px;
+    padding-bottom: 0;
+    width: fit-content;
+}
+.videos-section > h2{
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.videos{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.play{
+    width: 320% !important;
+    height: 140% !important;
+}

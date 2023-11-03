@@ -1,0 +1,135 @@
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+  margin-left: 3px;
+
+}
+
+.logo-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu{
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 100%;
+}
+
+.logo {
+  height: 20px;
+  object-fit: contain;
+  padding: 0;
+  will-change: filter;
+  transition: filter 300ms;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.middle-container{
+  display: flex;
+  justify-content: center;
+  width: 736px;
+  min-width: 100px;
+  margin-left: 40px;
+}
+
+.search-container{
+  display: flex;
+  align-items: center;
+  height: 38px;
+  width: 80%;
+  border: 1.4px solid rgb(189, 185, 185) ;
+  box-shadow: rgba(0,0,0,0.02) 0px 6px 24px 0px,
+  rgb(0,0,0,0.05) 0px 0px 0px 1px;
+  border-radius: 24px;
+  margin-right: 14px;
+}
+
+.search-container > input{
+  flex: 1;
+  border:none;
+  font-size: medium;
+  padding-left: 14px;
+  width: 40%;
+  background-color: transparent;
+}
+
+.search-container > input:focus{
+  outline: none;
+}
+
+.search-container > input ::placeholder{
+  color: rgb(189, 185, 185);
+  font-weight: 110;
+}
+
+.search-btn{
+  min-width:10%;
+  border: none;
+  height: 38px;
+  border-left: 1px solid rgb(189, 185, 185)  ;
+  background-color: rgb(244, 242, 242);
+  color: rgb(72, 69, 69);
+  cursor: pointer;
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+.search-btn:hover{
+  transform: 0.5s ease ;
+  background: linear-gradient(135deg, #ece8e8 0%, #ece8e8 100%);
+}
+
+.mic{
+  background-color: rgb(238, 237, 237) ;
+  padding: 7px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.mic:hover,.menu:hover{
+  transform: 0.5s ease ;
+  background: linear-gradient(135deg, #ece8e8 0%, #ece8e8 100%);
+}
+
+
+.icon{
+  font-size: 26px !important ;
+}
+
+.right-container{
+  display: flex;
+  align-items: center;
+}
+
+.right-icon,.avatar{
+  margin-right: 10px;
+  border: none;
+  border-radius: 100%;
+  background-color: transparent;
+  min-width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+
+.avatar-icon{
+  font-size: 40px !important;
+}
+
+.right-icon:hover{
+  transform: 0.5s ease ;
+  background: linear-gradient(135deg, #ece8e8 0%, #ece8e8 100%);
+}
+
+
+
